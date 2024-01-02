@@ -1,6 +1,6 @@
 ---
 order: -100
-icon: pencil
+icon: paintbrush
 tags: [guide]
 ---
 

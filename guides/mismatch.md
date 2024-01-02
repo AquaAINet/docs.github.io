@@ -1,6 +1,6 @@
 ---
 order: -120
-icon: pencil
+icon: copilot
 tags: [guide]
 ---
 
