@@ -50,9 +50,9 @@ edit:
   repo: github.com/AquaAINet/docs.github.io
 
 links:
-  # - text: Dashboard
-  #   link: /dashboard
-  #   icon: heart
+  - text: Dashboard
+    link: https://deepfashion.us/dashboard
+    icon: heart
 
   - text: X # Icon from https://iconmonstr.com
     link: https://twitter.com/deepfashionhq
