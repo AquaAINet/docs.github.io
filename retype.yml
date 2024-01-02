@@ -31,8 +31,9 @@ start:
 # -------------------
 
 input: ./
-output: .deepfashion
+output: .retype     
 url: deepfashion.us
+# url: docs.deepfashion.us
 
 branding:
   logo: /static/DeepFashion.svg
@@ -46,7 +47,7 @@ generator:
   paths: root
 
 edit:
-  repo: github.com/omniedgeio/deepfashion-docs
+  repo: github.com/AquaAINet/docs.github.io
 
 links:
   # - text: Dashboard
