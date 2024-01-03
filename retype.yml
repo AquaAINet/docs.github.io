@@ -32,8 +32,8 @@ start:
 
 input: ./
 output: .retype     
-url: deepfashion.us
-# url: docs.deepfashion.us
+# url: deepfashion.us
+url: docs.deepfashion.us
 
 branding:
   logo: /static/DeepFashion.svg
@@ -92,4 +92,4 @@ integrations:
   crisp:
     id: 
   plausible:
-    domain: deepfashion.us
+    domain: 
