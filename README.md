@@ -2,7 +2,8 @@
 label: "Welcome"
 icon: home
 ---
-![](static/DeepFashion-banner.webp)
+
+![DeepFashion: Uniting AI for Sustainable Fashion Innovation](static/deepfashionmap.webp)
 
 # Welcome to DeepFashion
 
@@ -86,4 +87,4 @@ We :heart: feedback.
 
 ----
 
-![DeepFashion: Uniting AI for Sustainable Fashion Innovation](static/deepfashionmap.webp)
+![](static/DeepFashion-banner.webp)
