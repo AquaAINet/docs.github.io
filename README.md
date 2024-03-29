@@ -11,9 +11,9 @@ icon: home
 
 
 {.callout}
-> “Create 100X looks in brand DNA with AI."
+> “Fashion AI Desginer but trained for you only."
 
-DeepFashion helps turn 5 Looks into millions in brand DNA style, which takes only a few minitues. Training takes around 10~20 minutues, and images generation takes around 10 seconds.  :+1:
+DeepFashion helps build your own fashion AI with 5 Looks into millions in your style, which takes only a few minitues.  :+1:
 
 ---
 
