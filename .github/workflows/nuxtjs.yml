@@ -3,11 +3,11 @@ name: ci-dev
 on:
   push:
     branches:
-      - dev
+      - main
   pull_request:
     types: [opened, synchronize]
     branches:
-      - dev
+      - main
 
 jobs:
   build:
