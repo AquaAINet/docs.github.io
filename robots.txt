@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://docs.deepfashion.us/sitemap.xml.gz
+Sitemap: https://deepfashion.us/sitemap.xml.gz
