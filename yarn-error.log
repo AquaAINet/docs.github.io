@@ -1,0 +1,48 @@
+Arguments: 
+  /Users/yong/.nvm/versions/node/v18.18.2/bin/node /usr/local/bin/yarn install
+
+PATH: 
+  /Users/yong/.rvm/gems/ruby-2.7.2/bin:/Users/yong/.rvm/gems/ruby-2.7.2@global/bin:/Users/yong/.rvm/rubies/ruby-2.7.2/bin:/opt/homebrew/opt/postgresql@15/bin:/Users/yong/Library/pnpm:/Users/yong/.nvm/versions/node/v18.18.2/bin:/Users/yong/miniforge3/bin:/Users/yong/miniforge3/condabin:/Users/yong/.fly/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/local/sbin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/yong/miniforge3/bin:/usr/local/go/bin:/Library/Apple/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/yong/.cargo/bin:/Users/yong/.orbstack/bin:/Users/yong/.rvm/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  18.18.2
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: Client network socket disconnected before secure TLS connection was established
+      at connResetException (node:internal/errors:720:14)
+      at TLSSocket.onConnectEnd (node:_tls_wrap:1655:19)
+      at TLSSocket.emit (node:events:529:35)
+      at endReadableNT (node:internal/streams/readable:1368:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "docus-starter",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "dev": "nuxi dev",
+      "build": "nuxi build",
+      "generate": "nuxi generate",
+      "preview": "nuxi preview",
+      "lint": "eslint ."
+    },
+    "devDependencies": {
+      "@nuxt-themes/docus": "^1.14.7",
+      "@nuxt/eslint-config": "^0.2.0",
+      "eslint": "^8.50.0",
+      "nuxt": "3.7.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

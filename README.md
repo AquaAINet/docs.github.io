@@ -1,90 +1,57 @@
----
-label: "Welcome"
-icon: home
----
+# Docus Starter
 
-![DeepFashion: Uniting AI for Sustainable Fashion Innovation](static/deepfashionmap.webp)
+Starter template for [Docus](https://docus.dev).
 
-# Welcome to DeepFashion
+## Clone
 
-[DeepFashion](https://deepfashion.us) is an :robot_face: AI which generates visual imagery and creative inspiration in brand DNA by training previous collections into a brand AI Model. No code required. 
+Clone the repository (using `nuxi`):
 
+```bash
+npx nuxi init -t themes/docus
+```
 
-{.callout}
-> “Fashion AI Desginer but trained for you only."
+## Setup
 
-DeepFashion helps build your own fashion AI with 5 Looks into millions in your style, which takes only a few minitues.  :+1:
+Install dependencies:
 
----
+```bash
+yarn install
+```
 
-## Quick start :zap:
+## Development
 
-1. Upload 5 of your lookbooks images in [Dashboard](http://deepfashion.us/dashboard)
-2. Train your brand AI model by clicks in 10 minutes 
-3. Get the new lookbooks in [universal prompt](/guides/universalprompt/). 
+```bash
+yarn dev
+```
 
+## Edge Side Rendering
 
-[!embed text="DeepFashion Training Brand Style AI"](https://www.youtube.com/embed/EDOUW8STwDM)
+Can be deployed to Vercel Functions, Netlify Functions, AWS, and most Node-compatible environments.
 
+Look at all the available presets [here](https://nuxt.com/docs/getting-started/deployment#presets).
 
----
+```bash
+yarn build
+```
 
-## Features
+## Static Generation
 
-### :dna:  Brand AI models training
+Use the `generate` command to build your application.
 
-Deepfashion train your brand style AI model from 5 of your looks in just clicks. 
+The HTML files will be generated in the .output/public directory and ready to be deployed to any static compatible hosting.
 
-### :dress: Looks generation in brand style
+```bash
+yarn generate
+```
 
-Generate looks with everyday lanauges, with the help of [universal prompt](/guides/universalprompt/) in text to image, image to image method.
+## Preview build
 
-### :gem: 4K Resolution output
+You might want to preview the result of your build locally, to do so, run the following command:
 
-High resolution output for your looks.
-
-### :speaking_head_in_silhouette: Universal prompt
-
-[universal prompt](/guides/universalprompt/) allows users use everyday language to create looks with the help from AI in any lanauges. 
-
-### :memo: AI prompt asistants
-
-Explore a diverse selection of styles and colors with our complimentary AI prompt, designed to assist you in crafting a one-of-a-kind look. Whether you prefer to utilize the look style in our Studio or harness the power of Stable Diffusion, we've got you covered.
-
-### :shopping_bags: Fashion Stylist
-
-Get the stylist advices based on your created looks with AI
-
-### :film_frames: Live Looks
-
-Make the look live. 
-
-### :robot_face: Face Swap
-
-Swap to your model's face
-
-### :woman-gesturing-ok: No watermark
-
-There is no watermark on the generated images.
-
-### :man-gesturing-ok: Commercial usage license
-
-You can use it for commercial purpose.
-
-### :female-artist: Image to sketch
-
-Convert the looks into sketch for tech packs. 
+```bash
+yarn preview
+```
 
 ---
 
-## Support
-
-Do you have a question, or would like to make a feature request?
-
-Do you have a general inquiry? Please feel free to contact us at support@deepfashion.us.
-
-We :heart: feedback.
-
-----
-
-![](static/DeepFashion-banner.webp)
+For a detailed explanation of how things work, check out [Docus](https://docus.dev).
