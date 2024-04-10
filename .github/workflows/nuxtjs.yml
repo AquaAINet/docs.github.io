@@ -18,7 +18,7 @@ jobs:
           node-version: "18"
 
       # Pick your own package manager and build script
-      - run: npm install
+      - run: rm -rf node_modules && npm install
       - run: npm run build
         env:
           NITRO_PRESET: github_pages
