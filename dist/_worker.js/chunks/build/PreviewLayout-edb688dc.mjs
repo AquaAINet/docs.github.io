@@ -1,0 +1,2 @@
+import{h as e}from"./server.mjs";import{z as s,A as t,E as o,l as r}from"../routes/renderer.mjs";import"../runtime.mjs";const d={};const a=d.setup;d.setup=(e,s)=>{const t=r();return(t.modules||(t.modules=new Set)).add("node_modules/@nuxt-themes/elements/components/meta/PreviewLayout.vue"),a?a(e,s):void 0};const n=e(d,[["ssrRender",function(e,r,d,a){r(`<div${s(t({class:"preview-layout"},a))} data-v-5f8e274d>`),o(e.$slots,"default",{},null,r,d),r("</div>")}],["__scopeId","data-v-5f8e274d"]]);export{n as default};
+//# sourceMappingURL=PreviewLayout-edb688dc.mjs.map

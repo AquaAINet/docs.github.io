@@ -1,0 +1,2 @@
+import e from"./ProseP-2970ab9f.mjs";import{d as s,I as r,l as o}from"../routes/renderer.mjs";import"./server.mjs";import"../runtime.mjs";const t=s({__name:"SourceLink",__ssrInlineRender:!0,props:{source:{type:String,required:!0}},setup:s=>(s,o,t,n)=>{o(r(e,n,null,t))}}),n=t.setup;t.setup=(e,s)=>{const r=o();return(r.modules||(r.modules=new Set)).add("node_modules/@nuxt-themes/docus/components/docs/SourceLink.vue"),n?n(e,s):void 0};export{t as default};
+//# sourceMappingURL=SourceLink-5dc6382d.mjs.map

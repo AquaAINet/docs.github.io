@@ -1,0 +1,2 @@
+import{h as e}from"./server.mjs";import{z as o,E as s,l as t}from"../routes/renderer.mjs";import"../runtime.mjs";const d={};const r=d.setup;d.setup=(e,o)=>{const s=t();return(s.modules||(s.modules=new Set)).add("node_modules/@nuxt-themes/typography/components/global/ProseCodeInline.vue"),r?r(e,o):void 0};const n=e(d,[["ssrRender",function(e,t,d,r){t(`<code${o(r)} data-v-2f6bd69d>`),s(e.$slots,"default",{},null,t,d),t("</code>")}],["__scopeId","data-v-2f6bd69d"]]);export{n as default};
+//# sourceMappingURL=ProseCodeInline-717bc325.mjs.map

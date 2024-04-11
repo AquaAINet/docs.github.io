@@ -1,0 +1,2 @@
+import{h as e}from"./server.mjs";import{z as s,E as t,l as o}from"../routes/renderer.mjs";import"../runtime.mjs";const r={};const a=r.setup;r.setup=(e,s)=>{const t=o();return(t.modules||(t.modules=new Set)).add("node_modules/@nuxt-themes/typography/components/global/ProseTr.vue"),a?a(e,s):void 0};const n=e(r,[["ssrRender",function(e,o,r,a){o(`<tr${s(a)} data-v-759aaa1b>`),t(e.$slots,"default",{},null,o,r),o("</tr>")}],["__scopeId","data-v-759aaa1b"]]);export{n as default};
+//# sourceMappingURL=ProseTr-da4c5888.mjs.map

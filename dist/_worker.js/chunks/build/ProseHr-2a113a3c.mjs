@@ -1,0 +1,2 @@
+import{h as e}from"./server.mjs";import{z as s,l as o}from"../routes/renderer.mjs";import"../runtime.mjs";const t={};const r=t.setup;t.setup=(e,s)=>{const t=o();return(t.modules||(t.modules=new Set)).add("node_modules/@nuxt-themes/typography/components/global/ProseHr.vue"),r?r(e,s):void 0};const d=e(t,[["ssrRender",function(e,o,t,r){o(`<hr${s(r)} data-v-89dedb08>`)}],["__scopeId","data-v-89dedb08"]]);export{d as default};
+//# sourceMappingURL=ProseHr-2a113a3c.mjs.map

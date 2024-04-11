@@ -1,0 +1,1 @@
+{"version":3,"file":"opensearch.xml.mjs","sources":["../../../../node_modules/@nuxt-themes/docus/server/routes/opensearch.xml.ts"],"sourcesContent":null,"names":["opensearch_xml","defineEventHandler","async","config","useAppConfig","_a","docus","title","_b","description","_c","url","_d"],"mappings":"","x_google_ignoreList":[0]}

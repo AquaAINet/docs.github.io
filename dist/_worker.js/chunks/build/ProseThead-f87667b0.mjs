@@ -1,0 +1,2 @@
+import{h as e}from"./server.mjs";import{z as s,E as t,l as o}from"../routes/renderer.mjs";import"../runtime.mjs";const a={};const d=a.setup;a.setup=(e,s)=>{const t=o();return(t.modules||(t.modules=new Set)).add("node_modules/@nuxt-themes/typography/components/global/ProseThead.vue"),d?d(e,s):void 0};const r=e(a,[["ssrRender",function(e,o,a,d){o(`<thead${s(d)} data-v-81e7d1ab>`),t(e.$slots,"default",{},null,o,a),o("</thead>")}],["__scopeId","data-v-81e7d1ab"]]);export{r as default};
+//# sourceMappingURL=ProseThead-f87667b0.mjs.map

@@ -1,0 +1,2 @@
+import{h as e}from"./server.mjs";import{z as o,E as s,l as t}from"../routes/renderer.mjs";import"../runtime.mjs";const r={};const n=r.setup;r.setup=(e,o)=>{const s=t();return(s.modules||(s.modules=new Set)).add("node_modules/@nuxt-themes/typography/components/global/ProseTbody.vue"),n?n(e,o):void 0};const d=e(r,[["ssrRender",function(e,t,r,n){t(`<tbody${o(n)}>`),s(e.$slots,"default",{},null,t,r),t("</tbody>")}]]);export{d as default};
+//# sourceMappingURL=ProseTbody-741e49c5.mjs.map

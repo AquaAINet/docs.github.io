@@ -1,0 +1,2 @@
+import{h as s}from"./server.mjs";import{z as e,E as o,l as t}from"../routes/renderer.mjs";import"../runtime.mjs";const r={};const n=r.setup;r.setup=(s,e)=>{const o=t();return(o.modules||(o.modules=new Set)).add("node_modules/@nuxt-themes/typography/components/global/ProseStrong.vue"),n?n(s,e):void 0};const a=s(r,[["ssrRender",function(s,t,r,n){t(`<strong${e(n)} data-v-84b57b07>`),o(s.$slots,"default",{},null,t,r),t("</strong>")}],["__scopeId","data-v-84b57b07"]]);export{a as default};
+//# sourceMappingURL=ProseStrong-b86bd462.mjs.map

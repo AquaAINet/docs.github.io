@@ -1,0 +1,2 @@
+import{_ as e}from"./MDCSlot-b6f8d3a7.mjs";import{d as t,h as o,l as n}from"../routes/renderer.mjs";import"../runtime.mjs";const r=t({props:{use:{type:Function,default:void 0},unwrap:{type:[Boolean,String],default:!1}},render:t=>o(e,t)}),s=r.setup;r.setup=(e,t)=>{const o=n();return(o.modules||(o.modules=new Set)).add("node_modules/@nuxt/content/dist/runtime/components/ContentSlot.vue"),s?s(e,t):void 0};export{r as default};
+//# sourceMappingURL=ContentSlot-8ddc8cc2.mjs.map

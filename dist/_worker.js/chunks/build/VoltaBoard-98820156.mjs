@@ -1,0 +1,2 @@
+import{d as e,c as t,z as s,A as o,u as r,l as n}from"../routes/renderer.mjs";import"../runtime.mjs";const a=e({__name:"VoltaBoard",__ssrInlineRender:!0,props:{token:{type:String,required:!0}},setup(e){const n=e,a=t((()=>`https://volta.net/embed/${n.token}`));return(e,t,n,m)=>{t(`<iframe${s(o({src:r(a),class:"w-full"},m))}></iframe>`)}}}),m=a.setup;a.setup=(e,t)=>{const s=n();return(s.modules||(s.modules=new Set)).add("node_modules/@nuxt-themes/elements/components/volta/VoltaBoard.vue"),m?m(e,t):void 0};export{a as default};
+//# sourceMappingURL=VoltaBoard-98820156.mjs.map

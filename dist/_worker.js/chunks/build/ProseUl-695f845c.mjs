@@ -1,0 +1,2 @@
+import{h as e}from"./server.mjs";import{z as s,E as o,l as t}from"../routes/renderer.mjs";import"../runtime.mjs";const r={};const a=r.setup;r.setup=(e,s)=>{const o=t();return(o.modules||(o.modules=new Set)).add("node_modules/@nuxt-themes/typography/components/global/ProseUl.vue"),a?a(e,s):void 0};const d=e(r,[["ssrRender",function(e,t,r,a){t(`<ul${s(a)} data-v-5bd61aad>`),o(e.$slots,"default",{},null,t,r),t("</ul>")}],["__scopeId","data-v-5bd61aad"]]);export{d as default};
+//# sourceMappingURL=ProseUl-695f845c.mjs.map

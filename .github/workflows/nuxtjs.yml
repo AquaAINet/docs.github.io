@@ -20,9 +20,6 @@ jobs:
       # Pick your own package manager and build script
       - run: rm -rf node_modules && npm install
       - run: nuxt generate
-        env:
-          NITRO_PRESET: github_pages
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
