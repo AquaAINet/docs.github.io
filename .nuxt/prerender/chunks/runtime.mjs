@@ -239,7 +239,7 @@ const _inlineRuntimeConfig = {
     "content": {
       "locales": [],
       "defaultLocale": "",
-      "integrity": 1712852253933,
+      "integrity": 1712852908205,
       "experimental": {
         "stripQueryParameters": false,
         "advanceQuery": false,
@@ -4248,26 +4248,6 @@ const components = {
       ],
       "exposed": [
         {
-          "name": "onMove",
-          "type": "((...args: any[]) => any) | undefined",
-          "description": "",
-          "declarations": [],
-          "schema": {
-            "kind": "enum",
-            "type": "((...args: any[]) => any) | undefined",
-            "schema": [
-              "undefined",
-              {
-                "kind": "event",
-                "type": "(...args: any[]): any",
-                "schema": [
-                  "any"
-                ]
-              }
-            ]
-          }
-        },
-        {
           "name": "links",
           "type": "TocLink[]",
           "description": "",
@@ -4368,6 +4348,26 @@ const components = {
                     }
                   }
                 }
+              }
+            ]
+          }
+        },
+        {
+          "name": "onMove",
+          "type": "((...args: any[]) => any) | undefined",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "enum",
+            "type": "((...args: any[]) => any) | undefined",
+            "schema": [
+              "undefined",
+              {
+                "kind": "event",
+                "type": "(...args: any[]): any",
+                "schema": [
+                  "any"
+                ]
               }
             ]
           }
@@ -10241,7 +10241,7 @@ const components = {
       "type": 1,
       "props": [
         {
-          "name": "componentData",
+          "name": "modelValue",
           "global": false,
           "description": "",
           "tags": [],
@@ -10251,8 +10251,8 @@ const components = {
             {
               "file": "/Users/yong/Data/Project-AI/Fashion/Git/docs/docs/node_modules/@nuxt-themes/elements/components/meta/ComponentPlaygroundData.vue",
               "range": [
-                659,
-                742
+                575,
+                655
               ]
             }
           ],
@@ -10267,7 +10267,7 @@ const components = {
           "default": "{}"
         },
         {
-          "name": "modelValue",
+          "name": "componentData",
           "global": false,
           "description": "",
           "tags": [],
@@ -10277,8 +10277,8 @@ const components = {
             {
               "file": "/Users/yong/Data/Project-AI/Fashion/Git/docs/docs/node_modules/@nuxt-themes/elements/components/meta/ComponentPlaygroundData.vue",
               "range": [
-                575,
-                655
+                659,
+                742
               ]
             }
           ],
@@ -10315,21 +10315,6 @@ const components = {
       ],
       "exposed": [
         {
-          "name": "componentData",
-          "type": "Record<string, any>",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/Users/yong/Data/Project-AI/Fashion/Git/docs/docs/node_modules/@nuxt-themes/elements/components/meta/ComponentPlaygroundData.vue",
-              "range": [
-                659,
-                742
-              ]
-            }
-          ],
-          "schema": "Record<string, any>"
-        },
-        {
           "name": "onUpdate:modelValue",
           "type": "((...args: any[]) => any) | undefined",
           "description": "",
@@ -10359,6 +10344,21 @@ const components = {
               "range": [
                 575,
                 655
+              ]
+            }
+          ],
+          "schema": "Record<string, any>"
+        },
+        {
+          "name": "componentData",
+          "type": "Record<string, any>",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/Users/yong/Data/Project-AI/Fashion/Git/docs/docs/node_modules/@nuxt-themes/elements/components/meta/ComponentPlaygroundData.vue",
+              "range": [
+                659,
+                742
               ]
             }
           ],
@@ -11603,16 +11603,6 @@ const components = {
                                     ]
                                   }
                                 },
-                                "title": {
-                                  "name": "title",
-                                  "global": false,
-                                  "description": "",
-                                  "tags": [],
-                                  "required": false,
-                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
-                                  "declarations": [],
-                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
-                                },
                                 "_id": {
                                   "name": "_id",
                                   "global": false,
@@ -11635,6 +11625,16 @@ const components = {
                                 },
                                 "_path": {
                                   "name": "_path",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": false,
+                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
+                                  "declarations": [],
+                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
+                                },
+                                "title": {
+                                  "name": "title",
                                   "global": false,
                                   "description": "",
                                   "tags": [],
@@ -13500,16 +13500,6 @@ const components = {
                                     ]
                                   }
                                 },
-                                "title": {
-                                  "name": "title",
-                                  "global": false,
-                                  "description": "",
-                                  "tags": [],
-                                  "required": false,
-                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
-                                  "declarations": [],
-                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
-                                },
                                 "_id": {
                                   "name": "_id",
                                   "global": false,
@@ -13532,6 +13522,16 @@ const components = {
                                 },
                                 "_path": {
                                   "name": "_path",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": false,
+                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
+                                  "declarations": [],
+                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
+                                },
+                                "title": {
+                                  "name": "title",
                                   "global": false,
                                   "description": "",
                                   "tags": [],
@@ -14551,16 +14551,6 @@ const components = {
                                     ]
                                   }
                                 },
-                                "title": {
-                                  "name": "title",
-                                  "global": false,
-                                  "description": "",
-                                  "tags": [],
-                                  "required": false,
-                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
-                                  "declarations": [],
-                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
-                                },
                                 "_id": {
                                   "name": "_id",
                                   "global": false,
@@ -14583,6 +14573,16 @@ const components = {
                                 },
                                 "_path": {
                                   "name": "_path",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": false,
+                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
+                                  "declarations": [],
+                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
+                                },
+                                "title": {
+                                  "name": "title",
                                   "global": false,
                                   "description": "",
                                   "tags": [],
@@ -16391,16 +16391,6 @@ const components = {
                                     ]
                                   }
                                 },
-                                "title": {
-                                  "name": "title",
-                                  "global": false,
-                                  "description": "",
-                                  "tags": [],
-                                  "required": false,
-                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
-                                  "declarations": [],
-                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
-                                },
                                 "_id": {
                                   "name": "_id",
                                   "global": false,
@@ -16423,6 +16413,16 @@ const components = {
                                 },
                                 "_path": {
                                   "name": "_path",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": false,
+                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
+                                  "declarations": [],
+                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
+                                },
+                                "title": {
+                                  "name": "title",
                                   "global": false,
                                   "description": "",
                                   "tags": [],
@@ -17394,16 +17394,6 @@ const components = {
                                     ]
                                   }
                                 },
-                                "title": {
-                                  "name": "title",
-                                  "global": false,
-                                  "description": "",
-                                  "tags": [],
-                                  "required": false,
-                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
-                                  "declarations": [],
-                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
-                                },
                                 "_id": {
                                   "name": "_id",
                                   "global": false,
@@ -17426,6 +17416,16 @@ const components = {
                                 },
                                 "_path": {
                                   "name": "_path",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": false,
+                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
+                                  "declarations": [],
+                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
+                                },
+                                "title": {
+                                  "name": "title",
                                   "global": false,
                                   "description": "",
                                   "tags": [],
@@ -18591,16 +18591,6 @@ const components = {
                                     ]
                                   }
                                 },
-                                "title": {
-                                  "name": "title",
-                                  "global": false,
-                                  "description": "",
-                                  "tags": [],
-                                  "required": false,
-                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
-                                  "declarations": [],
-                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
-                                },
                                 "_id": {
                                   "name": "_id",
                                   "global": false,
@@ -18623,6 +18613,16 @@ const components = {
                                 },
                                 "_path": {
                                   "name": "_path",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": false,
+                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
+                                  "declarations": [],
+                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
+                                },
+                                "title": {
+                                  "name": "title",
                                   "global": false,
                                   "description": "",
                                   "tags": [],
@@ -20807,21 +20807,6 @@ const components = {
           }
         },
         {
-          "name": "value",
-          "type": "Record<string, any>",
-          "description": "Content to render",
-          "declarations": [
-            {
-              "file": "/Users/yong/Data/Project-AI/Fashion/Git/docs/docs/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
-              "range": [
-                359,
-                408
-              ]
-            }
-          ],
-          "schema": "Record<string, any>"
-        },
-        {
           "name": "data",
           "type": "Record<string, any>",
           "description": "",
@@ -20831,6 +20816,21 @@ const components = {
               "range": [
                 739,
                 792
+              ]
+            }
+          ],
+          "schema": "Record<string, any>"
+        },
+        {
+          "name": "value",
+          "type": "Record<string, any>",
+          "description": "Content to render",
+          "declarations": [
+            {
+              "file": "/Users/yong/Data/Project-AI/Fashion/Git/docs/docs/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
+              "range": [
+                359,
+                408
               ]
             }
           ],
@@ -24976,7 +24976,7 @@ const handlers = [
   { route: '/api/_content/query/:qid/**:params', handler: _Y47AXu, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/query/:qid', handler: _Y47AXu, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/query', handler: _Y47AXu, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/cache.1712852253933.json', handler: _3M8CjR, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/cache.1712852908205.json', handler: _3M8CjR, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation/:qid/**:params', handler: _WhAzw1, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation/:qid', handler: _WhAzw1, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation', handler: _WhAzw1, lazy: false, middleware: false, method: "get" },

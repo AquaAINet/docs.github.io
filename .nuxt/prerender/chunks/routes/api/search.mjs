@@ -45,18 +45,16 @@ import 'file:///Users/yong/Data/Project-AI/Fashion/Git/docs/docs/node_modules/re
 const serverQueryContent = serverQueryContent$1;
 
 const search = defineEventHandler(async (event) => {
-  var _a, _b;
   const appConfig = useAppConfig();
-  ((_b = (_a = appConfig == null ? void 0 : appConfig.docus) == null ? void 0 : _a.search) == null ? void 0 : _b.mode) || "meta";
+  appConfig?.docus?.search?.mode || "meta";
   let docs = await serverQueryContent(event).find();
   docs = await Promise.all(
     docs.filter(
       (doc) => {
-        return (doc == null ? void 0 : doc._extension) === "md" && (doc == null ? void 0 : doc._draft) === false && !(doc == null ? void 0 : doc._empty);
+        return doc?._extension === "md" && doc?._draft === false && !doc?._empty;
       }
     ).map(
       async ({ _id: id, _path: path, _dir: dir, title = "", description = "", body = void 0, ...rest }) => {
-        var _a2;
         const { directoryIcon } = rest;
         if (directoryIcon) {
           console.log({ directoryIcon });
@@ -67,7 +65,7 @@ const search = defineEventHandler(async (event) => {
           dir,
           title,
           description,
-          keywords: (_a2 = body == null ? void 0 : body.toc) == null ? void 0 : _a2.links.map((link) => link == null ? void 0 : link.text),
+          keywords: body?.toc?.links.map((link) => link?.text),
           // Only fetch body for `full-text` mode.
           body: extractTextFromAst(body) || ""
         };

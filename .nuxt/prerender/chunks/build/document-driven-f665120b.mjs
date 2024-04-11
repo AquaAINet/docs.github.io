@@ -88,17 +88,13 @@ const __nuxt_component_0 = /* @__PURE__ */ defineComponent({
     const nuxtApp = useNuxtApp();
     const injectedRoute = inject(PageRouteSymbol);
     const route = injectedRoute === useRoute() ? useRoute$1() : injectedRoute;
-    const layout = computed(() => {
-      var _a, _b;
-      return (_b = (_a = unref(props.name)) != null ? _a : route.meta.layout) != null ? _b : "default";
-    });
+    const layout = computed(() => unref(props.name) ?? route.meta.layout ?? "default");
     const layoutRef = ref();
     context.expose({ layoutRef });
     const done = nuxtApp.deferHydration();
     return () => {
-      var _a;
       const hasLayout = layout.value && layout.value in layouts;
-      const transitionProps = (_a = route.meta.layoutTransition) != null ? _a : appLayoutTransition;
+      const transitionProps = route.meta.layoutTransition ?? appLayoutTransition;
       return _wrapIf(Transition, hasLayout && transitionProps, {
         default: () => h(Suspense, { suspensible: true, onResolve: () => {
           nextTick(done);
@@ -141,10 +137,7 @@ const LayoutProvider = /* @__PURE__ */ defineComponent({
     const name = props.name;
     if (props.shouldProvide) {
       provide(LayoutMetaSymbol, {
-        isCurrent: (route) => {
-          var _a;
-          return name === ((_a = route.meta.layout) != null ? _a : "default");
-        }
+        isCurrent: (route) => name === (route.meta.layout ?? "default")
       });
     }
     return () => {

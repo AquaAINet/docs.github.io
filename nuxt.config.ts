@@ -2,9 +2,11 @@ import { defineNuxtConfig } from '@nuxt/bridge'
 
 export default defineNuxtConfig({
   nitro: {
-    prerender: {
-      autoSubfolderIndex: false
-    }
-  },
+		esbuild: {
+			options: {
+				target: "esnext",
+			},
+		},
+	},
   extends: '@nuxt-themes/docus'
 })

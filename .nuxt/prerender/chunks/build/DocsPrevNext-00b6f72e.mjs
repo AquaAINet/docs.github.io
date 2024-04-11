@@ -62,11 +62,10 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
     const { prev, next, navigation } = useContent();
     const { navDirFromPath } = useContentHelpers();
     const directory = (link) => {
-      var _a2;
       var _a;
       const nav = navDirFromPath(link._path, navigation.value || []);
       if (nav && nav[0]) {
-        return (_a2 = (_a = nav[0]) == null ? void 0 : _a._path) != null ? _a2 : "";
+        return ((_a = nav[0]) == null ? void 0 : _a._path) ?? "";
       } else {
         const dirs = link.split("/");
         const directory2 = dirs.length > 1 ? dirs[dirs.length - 2] : "";

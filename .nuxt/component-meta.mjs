@@ -1307,26 +1307,6 @@ export default {
       ],
       "exposed": [
         {
-          "name": "onMove",
-          "type": "((...args: any[]) => any) | undefined",
-          "description": "",
-          "declarations": [],
-          "schema": {
-            "kind": "enum",
-            "type": "((...args: any[]) => any) | undefined",
-            "schema": [
-              "undefined",
-              {
-                "kind": "event",
-                "type": "(...args: any[]): any",
-                "schema": [
-                  "any"
-                ]
-              }
-            ]
-          }
-        },
-        {
           "name": "links",
           "type": "TocLink[]",
           "description": "",
@@ -1427,6 +1407,26 @@ export default {
                     }
                   }
                 }
+              }
+            ]
+          }
+        },
+        {
+          "name": "onMove",
+          "type": "((...args: any[]) => any) | undefined",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "enum",
+            "type": "((...args: any[]) => any) | undefined",
+            "schema": [
+              "undefined",
+              {
+                "kind": "event",
+                "type": "(...args: any[]): any",
+                "schema": [
+                  "any"
+                ]
               }
             ]
           }
@@ -7300,7 +7300,7 @@ export default {
       "type": 1,
       "props": [
         {
-          "name": "componentData",
+          "name": "modelValue",
           "global": false,
           "description": "",
           "tags": [],
@@ -7310,8 +7310,8 @@ export default {
             {
               "file": "/Users/yong/Data/Project-AI/Fashion/Git/docs/docs/node_modules/@nuxt-themes/elements/components/meta/ComponentPlaygroundData.vue",
               "range": [
-                659,
-                742
+                575,
+                655
               ]
             }
           ],
@@ -7326,7 +7326,7 @@ export default {
           "default": "{}"
         },
         {
-          "name": "modelValue",
+          "name": "componentData",
           "global": false,
           "description": "",
           "tags": [],
@@ -7336,8 +7336,8 @@ export default {
             {
               "file": "/Users/yong/Data/Project-AI/Fashion/Git/docs/docs/node_modules/@nuxt-themes/elements/components/meta/ComponentPlaygroundData.vue",
               "range": [
-                575,
-                655
+                659,
+                742
               ]
             }
           ],
@@ -7374,21 +7374,6 @@ export default {
       ],
       "exposed": [
         {
-          "name": "componentData",
-          "type": "Record<string, any>",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/Users/yong/Data/Project-AI/Fashion/Git/docs/docs/node_modules/@nuxt-themes/elements/components/meta/ComponentPlaygroundData.vue",
-              "range": [
-                659,
-                742
-              ]
-            }
-          ],
-          "schema": "Record<string, any>"
-        },
-        {
           "name": "onUpdate:modelValue",
           "type": "((...args: any[]) => any) | undefined",
           "description": "",
@@ -7418,6 +7403,21 @@ export default {
               "range": [
                 575,
                 655
+              ]
+            }
+          ],
+          "schema": "Record<string, any>"
+        },
+        {
+          "name": "componentData",
+          "type": "Record<string, any>",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/Users/yong/Data/Project-AI/Fashion/Git/docs/docs/node_modules/@nuxt-themes/elements/components/meta/ComponentPlaygroundData.vue",
+              "range": [
+                659,
+                742
               ]
             }
           ],
@@ -8662,16 +8662,6 @@ export default {
                                     ]
                                   }
                                 },
-                                "title": {
-                                  "name": "title",
-                                  "global": false,
-                                  "description": "",
-                                  "tags": [],
-                                  "required": false,
-                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
-                                  "declarations": [],
-                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
-                                },
                                 "_id": {
                                   "name": "_id",
                                   "global": false,
@@ -8694,6 +8684,16 @@ export default {
                                 },
                                 "_path": {
                                   "name": "_path",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": false,
+                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
+                                  "declarations": [],
+                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
+                                },
+                                "title": {
+                                  "name": "title",
                                   "global": false,
                                   "description": "",
                                   "tags": [],
@@ -10559,16 +10559,6 @@ export default {
                                     ]
                                   }
                                 },
-                                "title": {
-                                  "name": "title",
-                                  "global": false,
-                                  "description": "",
-                                  "tags": [],
-                                  "required": false,
-                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
-                                  "declarations": [],
-                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
-                                },
                                 "_id": {
                                   "name": "_id",
                                   "global": false,
@@ -10591,6 +10581,16 @@ export default {
                                 },
                                 "_path": {
                                   "name": "_path",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": false,
+                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
+                                  "declarations": [],
+                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
+                                },
+                                "title": {
+                                  "name": "title",
                                   "global": false,
                                   "description": "",
                                   "tags": [],
@@ -11610,16 +11610,6 @@ export default {
                                     ]
                                   }
                                 },
-                                "title": {
-                                  "name": "title",
-                                  "global": false,
-                                  "description": "",
-                                  "tags": [],
-                                  "required": false,
-                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
-                                  "declarations": [],
-                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
-                                },
                                 "_id": {
                                   "name": "_id",
                                   "global": false,
@@ -11642,6 +11632,16 @@ export default {
                                 },
                                 "_path": {
                                   "name": "_path",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": false,
+                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
+                                  "declarations": [],
+                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
+                                },
+                                "title": {
+                                  "name": "title",
                                   "global": false,
                                   "description": "",
                                   "tags": [],
@@ -13450,16 +13450,6 @@ export default {
                                     ]
                                   }
                                 },
-                                "title": {
-                                  "name": "title",
-                                  "global": false,
-                                  "description": "",
-                                  "tags": [],
-                                  "required": false,
-                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
-                                  "declarations": [],
-                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
-                                },
                                 "_id": {
                                   "name": "_id",
                                   "global": false,
@@ -13482,6 +13472,16 @@ export default {
                                 },
                                 "_path": {
                                   "name": "_path",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": false,
+                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
+                                  "declarations": [],
+                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
+                                },
+                                "title": {
+                                  "name": "title",
                                   "global": false,
                                   "description": "",
                                   "tags": [],
@@ -14453,16 +14453,6 @@ export default {
                                     ]
                                   }
                                 },
-                                "title": {
-                                  "name": "title",
-                                  "global": false,
-                                  "description": "",
-                                  "tags": [],
-                                  "required": false,
-                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
-                                  "declarations": [],
-                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
-                                },
                                 "_id": {
                                   "name": "_id",
                                   "global": false,
@@ -14485,6 +14475,16 @@ export default {
                                 },
                                 "_path": {
                                   "name": "_path",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": false,
+                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
+                                  "declarations": [],
+                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
+                                },
+                                "title": {
+                                  "name": "title",
                                   "global": false,
                                   "description": "",
                                   "tags": [],
@@ -15650,16 +15650,6 @@ export default {
                                     ]
                                   }
                                 },
-                                "title": {
-                                  "name": "title",
-                                  "global": false,
-                                  "description": "",
-                                  "tags": [],
-                                  "required": false,
-                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
-                                  "declarations": [],
-                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
-                                },
                                 "_id": {
                                   "name": "_id",
                                   "global": false,
@@ -15682,6 +15672,16 @@ export default {
                                 },
                                 "_path": {
                                   "name": "_path",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": false,
+                                  "type": "string | number | boolean | RegExp | QueryBuilderWhere | undefined",
+                                  "declarations": [],
+                                  "schema": "string | number | boolean | RegExp | QueryBuilderWhere | undefined"
+                                },
+                                "title": {
+                                  "name": "title",
                                   "global": false,
                                   "description": "",
                                   "tags": [],
@@ -17866,21 +17866,6 @@ export default {
           }
         },
         {
-          "name": "value",
-          "type": "Record<string, any>",
-          "description": "Content to render",
-          "declarations": [
-            {
-              "file": "/Users/yong/Data/Project-AI/Fashion/Git/docs/docs/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
-              "range": [
-                359,
-                408
-              ]
-            }
-          ],
-          "schema": "Record<string, any>"
-        },
-        {
           "name": "data",
           "type": "Record<string, any>",
           "description": "",
@@ -17890,6 +17875,21 @@ export default {
               "range": [
                 739,
                 792
+              ]
+            }
+          ],
+          "schema": "Record<string, any>"
+        },
+        {
+          "name": "value",
+          "type": "Record<string, any>",
+          "description": "Content to render",
+          "declarations": [
+            {
+              "file": "/Users/yong/Data/Project-AI/Fashion/Git/docs/docs/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
+              "range": [
+                359,
+                408
               ]
             }
           ],

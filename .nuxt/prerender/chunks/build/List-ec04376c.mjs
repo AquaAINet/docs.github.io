@@ -91,8 +91,7 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
     const { flatUnwrap: flatUnwrap2, unwrap: unwrap2 } = useUnwrap();
     const iconName = computed(() => props.icon || iconTypeMap[props.type]);
     return () => {
-      var _a;
-      const items = flatUnwrap2((_a = slots.default && slots.default()) != null ? _a : [], ["ul"]).map((li) => unwrap2(li, ["li"]));
+      const items = flatUnwrap2((slots.default && slots.default()) ?? [], ["ul"]).map((li) => unwrap2(li, ["li"]));
       return h(
         "ul",
         items.map(

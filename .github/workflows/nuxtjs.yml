@@ -18,7 +18,8 @@ jobs:
           node-version: "18"
 
       # Pick your own package manager and build script
-      - run: rm -rf node_modules && npm install
+      - run: rm -rf node_modules
+      - run: npm install && npm install -g create-nuxt-app
       - run: nuxt generate
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1

@@ -275,7 +275,6 @@ function renderNode(node, h2, documentMeta, parentScope = {}) {
   );
 }
 function renderBinding(node, h2, documentMeta, parentScope = {}) {
-  var _a2;
   var _a, _b;
   const data = {
     ...parentScope,
@@ -295,7 +294,7 @@ function renderBinding(node, h2, documentMeta, parentScope = {}) {
     return void 0;
   }, data);
   const defaultValue = (_b = node.props) == null ? void 0 : _b.defaultValue;
-  return h2(Text, (_a2 = value != null ? value : defaultValue) != null ? _a2 : "");
+  return h2(Text, value ?? defaultValue ?? "");
 }
 function renderSlots(node, h2, documentMeta, parentProps) {
   const children = node.children || [];
