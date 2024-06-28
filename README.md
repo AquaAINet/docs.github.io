@@ -1,3 +1,9 @@
+ deploy
+ 
+ npx nuxi build --preset=cloudflare_pages
+ npx wrangler pages deploy dist/
+
+
 # Docus Starter
 
 Starter template for [Docus](https://docus.dev).
